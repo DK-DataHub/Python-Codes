@@ -2,6 +2,5 @@ import numpy as np
 a = np.array([11, 23, 34, 45])
 b = np.array([15, 35, 27, 36])
 c = np.array([1, 2, 3, 4])
-sum1 = a+b
 total_add = np.add(np.add(a, b), c)
 print(total_add)
